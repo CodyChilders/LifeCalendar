@@ -33,6 +33,7 @@
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.doStuffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +52,8 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saveToolStripMenuItem});
+            this.saveToolStripMenuItem,
+            this.doStuffToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
@@ -227,6 +229,13 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1331, 693);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // doStuffToolStripMenuItem
+            // 
+            this.doStuffToolStripMenuItem.Name = "doStuffToolStripMenuItem";
+            this.doStuffToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.doStuffToolStripMenuItem.Text = "Do stuff";
+            this.doStuffToolStripMenuItem.Click += new System.EventHandler(this.doStuffToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -252,6 +261,7 @@
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.ToolStripMenuItem doStuffToolStripMenuItem;
 
     }
 }

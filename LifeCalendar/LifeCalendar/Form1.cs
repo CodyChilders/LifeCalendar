@@ -21,5 +21,10 @@ namespace LifeCalendar
         {
 
         }
+
+        private void doStuffToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello!");
+        }
     }
 }
